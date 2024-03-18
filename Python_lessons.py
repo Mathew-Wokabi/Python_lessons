@@ -88,11 +88,52 @@ if nationality=="KENYAN" and age>=35:
 else:
     print("you cannot be president")
 
-    origin="westlands"
-   if origin=="embakasi"or "westlands"or "kasarani":
-       print("you can be governor")
-   else:
-       print("you cannot be president")
+
+
+
+x=60
+w=2
+ans=w%x
+print(ans)
+if ans==0:
+    print("the number is even")
+else:
+    print("the number is odd")
+
+
+#LOOPS
+#while loops -- testing for break
+x=1
+while x <= 5:
+    if x == 3:
+        break
+    print(x)
+    x+=1
+
+#the continue statement in the while loop
+i=1
+while i < 6:
+        if i == 3:
+         i += 1
+
+        continue
+        print (i)
+        i += 1
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
